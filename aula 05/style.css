@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+}
+.menu{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    color: orange;
+    display: flex;    
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
