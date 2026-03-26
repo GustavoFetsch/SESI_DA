@@ -1,4 +1,5 @@
 body{
+    margin-top: 209px;
     background-image: url(bg.jpg);
     background-size: cover;    
     display: flex;
@@ -13,6 +14,8 @@ body{
     padding: 10px 30px 45px 30px;
     border-radius: 5px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .card-login p{
     font-size: 28px;
@@ -21,9 +24,42 @@ body{
 }
 .input-icon{
     display: flex;
+    height: 50px;
+    margin-bottom: 10px;
+    
 }
 .icon{
     background-color: #faa635;
     border-radius: 10px 0px 0px 10px;
+
 }
 
+.icon-img{
+    width: 50%;
+}
+
+.input-icon input, select{
+    width: 100%;
+    outline: none;
+    border: 0px;
+    border-radius: 0px 8px 8px 0px;
+    padding-left: 10px;
+}
+.card-login button{
+    height: 50px;
+    width: 270px;
+    background-color: blue;
+    color: azure;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+.card-login button:hover{
+    opacity: 0.8;
+    color:#faa635;
+}
+.card-login a{
+    color:aliceblue;
+}
