@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Tijolo</title>
+</head>
+<body>
+
+    <h1>COMPRE MATERIAIS BARATOS</h1>
+    <h3>R$0,70 POR TIJOLO</h3>
+
+    <p>Qual seu nome?</p>
+    <input id="nomeUsuario" type="text">
+
+    
+    <label for="MATERIAS">Que material deseja?</label>
+    <select name="Materiais" id="material">
+    <option value="" disabled>Selecione</option>
+    <option value="Tijolos">Tijolos</option>
+    <option value="Cerâmica">Cerâmica</option>
+    <option value="Madeira">Madeira</option>
+    </select>
+    <br><br>
+    <button onclick="calcularOrcamento()">Gerar Orçamento</button>
+
+    <h2 id="exibirNome">Nome do Cliente: </h2>
+    <h2 id="exibirResultado">O valor é: R$ 0,00</h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
